@@ -110,7 +110,7 @@ open(writerObj);
 fileID = fopen('RESULTS.m','w'); % to record time pedestrians and exposed densities
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-for t=1:7200 %time loop
+for t=1:3000 %time loop
 fprintf('t_spep = %d time = %f\n',t,t*D_t); 
 
 clf;
