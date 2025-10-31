@@ -2,7 +2,7 @@ function F = Approx_Roe_PW(Rr,Rl,Ur,Ul,Vr,Vl,M)
 % Approximate Riemann solver (Roe by default; optional Rusanov).
 % M==0 -> x-face; M==1 -> y-face
 
-    c0    = 0.5;        % "sound speed" in your ped model
+    c0    = 1.2;        % "sound speed" in your ped model
     eps11 = 1.0e-4;     % small number used in your code
     tiny  = 1.0e-12;    % numerical guard
 
