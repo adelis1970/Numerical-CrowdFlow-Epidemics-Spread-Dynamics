@@ -670,6 +670,7 @@ end %end of time loop
 fclose(fileID);
 close(writerObj);
 
+%Plot final time results if needed
 figure(2)
 surf(x,y,R_new)
 title('Total \rho')
