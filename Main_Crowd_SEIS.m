@@ -391,7 +391,7 @@ end
  vg=zeros(Ny,Nx); %else comments this and run potential.m first
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%         Infection potential based on drift-diffusionreaction equation
+%         Infection potential based on drift-diffusion-reaction equation
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Compute Rusanov numerical fluxes
