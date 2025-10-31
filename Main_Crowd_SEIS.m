@@ -77,8 +77,8 @@ V_new(:) = 0;
 % (can be changed as needed for different scenarios)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 irow_ic = 0.25 * R_new;   % infected percentage
-srow_ic = 0.60 * R_new;   % susceptible percentage
-vrow_ic = 0.15 * R_new;   % vaccinated/masked pedestrians
+srow_ic = 0.75 * R_new;   % susceptible percentage
+vrow_ic = 0.0 * R_new;   % vaccinated/masked pedestrians
 erow = zeros(size(R_new)); % exposed initially zero
 
 % Copy for simulation updates
